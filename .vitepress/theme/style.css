@@ -85,6 +85,12 @@ img {
   scroll-margin-top: var(--nav-height);
 }
 
+#model,
+#services,
+#flow {
+  scroll-margin-top: calc(var(--nav-height) + 12px);
+}
+
 /* Hero Section */
 .hero {
   position: relative;

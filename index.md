@@ -4,13 +4,13 @@ layout: home
 ---
 
 <nav class="section-nav">
-  <div class=container>
+  <div class="container">
     <ul>
-      <li>TOP</li>
-      <li>一貫支援モデル</li>
-      <li>コンサルティング領域</li>
-      <li>導入の流れ</li>
-      <li>会社情報</li>
+      <li><a href="#top">TOP</a></li>
+      <li><a href="#model">一貫支援モデル</a></li>
+      <li><a href="#services">コンサルティング領域</a></li>
+      <li><a href="#flow">導入の流れ</a></li>
+      <li><a href="#company">会社情報</a></li>
     </ul>
   </div>
 </nav>
