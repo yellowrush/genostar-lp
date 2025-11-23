@@ -4,10 +4,10 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   locales: {
     root: {
-      label: 'English',
-      lang: 'en',
+      label: '日本語',
+      lang: 'ja',
       title: 'GenoStar Inc.',
-      description: 'Welcome to GenoStar Inc.',
+      description: 'GenoStar Inc. へようこそ',
     },
     zh: {
       label: '简体中文',
@@ -15,13 +15,6 @@ export default defineConfig({
       title: 'GenoStar Inc.',
       description: '欢迎来到 GenoStar Inc.',
       link: '/zh/',
-    },
-    ja: {
-      label: '日本語',
-      lang: 'ja',
-      title: 'GenoStar Inc.',
-      description: 'GenoStar Inc. へようこそ',
-      link: '/ja/',
     },
   },
 });
