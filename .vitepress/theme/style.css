@@ -103,7 +103,8 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('drug.webp') center/cover no-repeat;
+  background: url('https://images.pexels.com/photos/5863394/pexels-photo-5863394.jpeg?auto=compress&cs=tinysrgb&w=1600')
+    center/cover no-repeat;
   opacity: 0.18;
   mix-blend-mode: screen;
 }
