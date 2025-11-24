@@ -42,7 +42,7 @@ layout: home
     </p>
     <div class="model-grid">
       <article class="model-item">
-        <div class="model-icon">①</div>
+        <div class="model-icon">1</div>
         <div>
           <h3>選定（Discovery）</h3>
           <p>
@@ -51,7 +51,7 @@ layout: home
         </div>
       </article>
       <article class="model-item">
-        <div class="model-icon">②</div>
+        <div class="model-icon">2</div>
         <div>
           <h3>導入設計（Design）</h3>
           <p>
@@ -60,7 +60,7 @@ layout: home
         </div>
       </article>
       <article class="model-item">
-        <div class="model-icon">③</div>
+        <div class="model-icon">3</div>
         <div>
           <h3>定着支援（Support）</h3>
           <p>

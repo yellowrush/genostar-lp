@@ -23,21 +23,21 @@ layout: home
     </p>
     <div class="model-grid">
       <article class="model-item">
-        <div class="model-icon">①</div>
+        <div class="model-icon">1</div>
         <div>
           <h3>選定（Discovery）</h3>
           <p>篩選與比較評估全球醫療技術、檢查、藥劑、醫療器械。基於臨床效果、安全性、費用、規制合規性選定導入候選項目。</p>
         </div>
       </article>
       <article class="model-item">
-        <div class="model-icon">②</div>
+        <div class="model-icon">2</div>
         <div>
           <h3>導入設計（Design）</h3>
           <p>根據醫療機構實際情況設計運營流程、人員配置、職責分工、費用設計。整合檢查、藥劑、器械的提供模式設計。</p>
         </div>
       </article>
       <article class="model-item">
-        <div class="model-icon">③</div>
+        <div class="model-icon">3</div>
         <div>
           <h3>定著支援（Support）</h3>
           <p>提供培訓、教育資料、案例諮詢、運營檢查與改善建議，確保持續有效的應用與定著。</p>

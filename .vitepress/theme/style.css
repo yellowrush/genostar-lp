@@ -259,7 +259,7 @@ section.section:nth-of-type(even) {
   width: 26px;
   height: 26px;
   border-radius: 999px;
-  background: var(--accent);
+  background: var(--primary);
   color: #fff;
   font-size: 13px;
   display: flex;
