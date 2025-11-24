@@ -17,4 +17,5 @@ export default defineConfig({
       link: '/zh/',
     },
   },
+  base: '/genostar-lp/',
 });
