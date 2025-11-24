@@ -1,1 +1,0 @@
-import{_ as t,c,r,o as s,d as m}from"./framework.B_DQrvWk.js";const a={};function p(o,n){const e=r("Content");return s(),c(e)}const _=t(a,[["render",p]]),l=m({name:"VpEmpty",setup(){return()=>null}}),h={Layout:_,enhanceApp({app:o}){["ColorMode","VPColorMode","ThemeToggle","VPThemeToggle","ThemeMode","VPThemeMode","VpColorMode"].forEach(e=>o.component(e,l))}};export{h as R};
