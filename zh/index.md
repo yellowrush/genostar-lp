@@ -37,27 +37,37 @@ layout: home
       所有项目都经过「选定」世界医疗技术、「导入设计」适应本地环境、「定着支援」确保成功应用的三个阶段。
     </p>
     <div class="model-grid">
-      <article class="model-item">
-        <div class="model-icon">1</div>
-        <div>
-          <h3>选定（Discovery）</h3>
-          <p>筛选与比较评估全球医疗技术、检查、药剂、医疗器械。基于临床效果、安全性、费用、规制合规性选定导入候选项目。</p>
+      <nav class="model-steps" aria-label="支援流程">
+        <div class="model-step">
+          <div class="model-pill" role="img" aria-label="步骤1">
+            <span class="model-pill-title">选定</span>
+            <span class="model-pill-subtitle">Discovery</span>
+          </div>
+          <p class="model-step-desc">
+            筛选与比较评估全球医疗技术、检查、药剂、医疗器械。
+          </p>
         </div>
-      </article>
-      <article class="model-item">
-        <div class="model-icon">2</div>
-        <div>
-          <h3>导入设计（Design）</h3>
-          <p>根据医疗机构实际情况设计运营流程、人员配置、职责分工、费用设计。整合检查、药剂、器械的提供模式设计。</p>
+        <div class="model-arrow" aria-hidden="true">→</div>
+        <div class="model-step">
+          <div class="model-pill" role="img" aria-label="步骤2">
+            <span class="model-pill-title">导入设计</span>
+            <span class="model-pill-subtitle">Design</span>
+          </div>
+          <p class="model-step-desc">
+            根据医疗机构实际情况设计运营流程、人员配置、费用设计。
+          </p>
         </div>
-      </article>
-      <article class="model-item">
-        <div class="model-icon">3</div>
-        <div>
-          <h3>定着支援（Support）</h3>
-          <p>提供培训、教育资料、案例咨询、运营检查与改善建议，确保持续有效的应用与定着。</p>
+        <div class="model-arrow" aria-hidden="true">→</div>
+        <div class="model-step">
+          <div class="model-pill" role="img" aria-label="步骤3">
+            <span class="model-pill-title">定着支援</span>
+            <span class="model-pill-subtitle">Support</span>
+          </div>
+          <p class="model-step-desc">
+            提供培训、运营检查与改善建议，确保持续有效的应用与定着。
+          </p>
         </div>
-      </article>
+      </nav>
     </div>
   </div>
 </section>
@@ -70,7 +80,9 @@ layout: home
     </p>
     <div class="services-grid">
       <article class="service-card">
-        <h3>精准医疗导入支援</h3>
+        <div class="service-card-header">
+          <h3>精准医疗<br>导入支援</h3>
+        </div>
         <ul>
           <li>癌症基因检查、多癌症筛检的导入评估与实施支援。</li>
           <li>检查流程设计、精准医疗报告运营模式构筑。</li>
@@ -79,7 +91,9 @@ layout: home
         </ul>
       </article>
       <article class="service-card">
-        <h3>国际药剂导入咨询</h3>
+        <div class="service-card-header">
+          <h3>国际药剂<br>导入咨询</h3>
+        </div>
         <ul>
           <li>分子靶向药、免疫疗法等海外药剂的信息搜集与比较评估。</li>
           <li>基于批准状态、循证证据、费用、风险、规制的导入方案检讨。</li>
@@ -88,7 +102,9 @@ layout: home
         </ul>
       </article>
       <article class="service-card">
-        <h3>智慧健检・医疗器械导入支援</h3>
+        <div class="service-card-header">
+          <h3>智慧健检・医疗<br>器械导入支援</h3>
+        </div>
         <ul>
           <li>AI 口腔相机、助听解决方案、自动检验设备等的选定与组合设计。</li>
           <li>针对高龄设施・在宅医疗・离岛医疗等用途的运营模式构筑。</li>
@@ -120,26 +136,34 @@ layout: home
 <section class="lp-section" id="company">
   <div class="container">
     <h2 class="section-title">公司信息</h2>
-    <dl class="company-grid">
-      <div>
-        <dt>公司名称</dt>
-        <dd>GenoStar Inc.</dd>
+    <div class="company-section">
+      <div class="company-subsection">
+        <h3>导入实绩</h3>
+        <ul class="company-list">
+          <li>大学医院、综合医院</li>
+          <li>健诊中心、护理机构</li>
+          <li>制药・医疗器械制造商</li>
+        </ul>
       </div>
-      <div>
-        <dt>业务内容</dt>
-        <dd>
-          医疗技术的评估与比较、导入流程设计、<br>
-          精准医疗导入支援、国际药剂导入咨询、<br>
-          智慧健检・医疗器械导入支援等。
-        </dd>
+      <div class="company-subsection">
+        <h3>公司信息</h3>
+        <dl class="company-grid">
+          <div>
+            <dt>公司名称</dt>
+            <dd>GenoStar Inc.</dd>
+          </div>
+          <div>
+            <dt>业务内容</dt>
+            <dd>
+              医疗技术的评估与比较、导入流程设计、精准医疗导入支援、国际药剂导入咨询、智慧健检・医疗器械导入支援等。
+            </dd>
+          </div>
+        </dl>
       </div>
-      <div>
-        <dt>使命</dt>
-        <dd>优化全球先进医疗技术的导入，实现患者和医疗者「在必要时刻能够获得必要医疗」的环境。</dd>
-      </div>
-    </dl>
-    <p class="company-note">
-      以医师平台事业积累的知见与网络为背景，展开针对临床现场课题的医疗技术导入咨询服务。
-    </p>
+    </div>
   </div>
 </section>
+
+<footer class="site-footer">
+  <div class="container">© GenoStar Inc.</div>
+</footer>

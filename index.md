@@ -42,33 +42,37 @@ layout: home
       すべてのプロジェクトを、世界の医療技術の「選定」、現場に合わせた「導入設計」、導入後の「定着支援」という3つのステップで支援します。
     </p>
     <div class="model-grid">
-      <article class="model-item">
-        <div class="model-icon">1</div>
-        <div>
-          <h3>選定（Discovery）</h3>
-          <p>
-            世界の医療技術・検査・薬剤・デバイスのスクリーニングと比較評価。臨床効果・安全性・費用・規制適合性を踏まえた導入候補の選定。
+      <nav class="model-steps" aria-label="支援プロセス">
+        <div class="model-step">
+          <div class="model-pill" role="img" aria-label="ステップ1">
+            <span class="model-pill-title">選定</span>
+            <span class="model-pill-subtitle">Discovery</span>
+          </div>
+          <p class="model-step-desc">
+            世界の医療技術・検査・薬剤の比較評価と導入候補の選定。
           </p>
         </div>
-      </article>
-      <article class="model-item">
-        <div class="model-icon">2</div>
-        <div>
-          <h3>導入設計（Design）</h3>
-          <p>
-            医療機関や施設の実情に合わせた運用フロー・スタッフ体制・役割分担・料金設計の策定。検査・薬剤・デバイスを組み合わせた提供モデルの設計。
+        <div class="model-arrow" aria-hidden="true">→</div>
+        <div class="model-step">
+          <div class="model-pill" role="img" aria-label="ステップ2">
+            <span class="model-pill-title">導入設計</span>
+            <span class="model-pill-subtitle">Design</span>
+          </div>
+          <p class="model-step-desc">
+            運用フロー・組織体制・料金設計の策定とモデル設計。
           </p>
         </div>
-      </article>
-      <article class="model-item">
-        <div class="model-icon">3</div>
-        <div>
-          <h3>定着支援（Support）</h3>
-          <p>
-            トレーニング・教育資料の提供、症例ベースの相談、運用状況レビューと改善提案による継続的な定着支援。
+        <div class="model-arrow" aria-hidden="true">→</div>
+        <div class="model-step">
+          <div class="model-pill" role="img" aria-label="ステップ3">
+            <span class="model-pill-title">定着支援</span>
+            <span class="model-pill-subtitle">Support</span>
+          </div>
+          <p class="model-step-desc">
+            トレーニング・運用状況レビューと継続的な改善支援。
           </p>
         </div>
-      </article>
+      </nav>
     </div>
   </div>
 </section>
@@ -81,7 +85,9 @@ layout: home
     </p>
     <div class="services-grid">
       <article class="service-card">
-        <h3>プレシジョンメディシン導入支援</h3>
+        <div class="service-card-header">
+          <h3>プレシジョンメディシン<br>導入支援</h3>
+        </div>
         <ul>
           <li>
             がんゲノム検査・マルチキャンサースクリーニング検査の導入評価と実装支援。
@@ -94,7 +100,9 @@ layout: home
         </ul>
       </article>
       <article class="service-card">
-        <h3>国際薬剤アクセスコンサル</h3>
+        <div class="service-card-header">
+          <h3>国際薬剤アクセス<br>コンサル</h3>
+        </div>
         <ul>
           <li>
             分子標的薬・免疫療法など海外薬剤の情報リサーチと比較評価。
@@ -113,7 +121,9 @@ layout: home
         </ul>
       </article>
       <article class="service-card">
-        <h3>スマート健診・医療デバイス導入支援</h3>
+        <div class="service-card-header">
+          <h3>スマート健診・医療<br>デバイス導入支援</h3>
+        </div>
         <ul>
           <li>
             AI口腔カメラ、補聴ソリューション、自動検査機などの選定・組み合わせ設計。
@@ -160,29 +170,31 @@ layout: home
 <section class="section" id="company">
   <div class="container">
     <h2 class="section-title">会社情報</h2>
-    <dl class="company-grid">
-      <div>
-        <dt>社名</dt>
-        <dd>GenoStar Inc.</dd>
+    <div class="company-section">
+      <div class="company-subsection">
+        <h3>導入実績</h3>
+        <ul class="company-list">
+          <li>大学病院、総合病院</li>
+          <li>健診センター、介護施設</li>
+          <li>製薬・医療機器メーカー</li>
+        </ul>
       </div>
-      <div>
-        <dt>事業内容</dt>
-        <dd>
-          医療技術の評価・比較、導入フローの設計、<br />
-          プレシジョンメディシン導入支援、国際薬剤アクセスコンサル、<br />
-          スマート健診・医療デバイス導入支援 等。
-        </dd>
+      <div class="company-subsection">
+        <h3>会社情報</h3>
+        <dl class="company-grid">
+          <div>
+            <dt>社名</dt>
+            <dd>GenoStar Inc.</dd>
+          </div>
+          <div>
+            <dt>事業内容</dt>
+            <dd>
+              医療技術の評価・比較、導入フローの設計、プレシジョンメディシン導入支援、国際薬剤アクセスコンサル、スマート健診・医療デバイス導入支援 等。
+            </dd>
+          </div>
+        </dl>
       </div>
-      <div>
-        <dt>ミッション</dt>
-        <dd>
-          世界最先端医療技術へのアクセスを最適化し、患者と医療者が「必要なときに、必要な医療」に近づける環境の実現。
-        </dd>
-      </div>
-    </dl>
-    <p class="company-note">
-      医師向けプラットフォーム事業で培われた知見とネットワークを背景に、臨床現場の課題に即した医療技術導入コンサルティングサービスを展開しています。
-    </p>
+    </div>
   </div>
 </section>
 

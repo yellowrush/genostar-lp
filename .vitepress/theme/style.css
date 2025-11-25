@@ -140,11 +140,13 @@ img {
 }
 
 /* Section Styles */
-section.section {
+section.section,
+section.lp-section {
   padding: 56px 0;
 }
 
-section.section:nth-of-type(even) {
+section.section:nth-of-type(even),
+section.lp-section:nth-of-type(even) {
   background: var(--bg-light);
 }
 
@@ -164,13 +166,72 @@ section.section:nth-of-type(even) {
   margin: 0 auto 32px;
 }
 
-/* Model Grid */
+/* Model Grid - Horizontal Step Flow */
 .model-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
 }
 
+.model-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.model-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.model-pill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 999px;
+  padding: 12px 32px;
+  min-width: 120px;
+  border: 2px solid var(--primary);
+}
+
+.model-pill-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.model-pill-subtitle {
+  font-size: 11px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.model-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  font-size: 20px;
+  transform: rotate(90deg);
+}
+
+.model-step-desc {
+  font-size: 13px;
+  color: var(--text-sub);
+  max-width: 200px;
+  line-height: 1.6;
+}
+
+/* Legacy model-item styles for backward compatibility */
 .model-item {
   background: #ffffff;
   border-radius: 12px;
@@ -216,11 +277,33 @@ section.section:nth-of-type(even) {
 
 .service-card {
   background: #ffffff;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-radius: 12px;
   padding: 20px 18px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
-  border-top: 3px solid var(--primary);
+}
+
+.service-card-header {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 999px;
+  padding: 8px 24px;
+  margin-bottom: 12px;
+}
+
+.service-card-header h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.service-card-header .service-subtitle {
+  font-size: 10px;
+  opacity: 0.9;
+  margin: 0;
 }
 
 .service-card h3 {
@@ -241,18 +324,20 @@ section.section:nth-of-type(even) {
   margin-top: 4px;
 }
 
-/* Flow Steps */
+/* Flow Steps - Grid Layout */
 .flow-steps {
   list-style: none;
   margin: 0;
   padding: 0;
   counter-reset: flow;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
 }
 
 .flow-steps li {
   position: relative;
   padding-left: 40px;
-  margin-bottom: 16px;
   font-size: 13px;
   color: var(--text-sub);
 }
@@ -282,6 +367,28 @@ section.section:nth-of-type(even) {
   scroll-margin-top: calc(var(--nav-height) + 12px);
 }
 
+.company-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.company-subsection {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+.company-subsection h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--primary);
+}
+
 .company-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -302,6 +409,22 @@ section.section:nth-of-type(even) {
   font-size: 12px;
   color: var(--text-sub);
   margin-top: 8px;
+}
+
+.company-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.company-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.company-list li:last-child {
+  border-bottom: none;
 }
 
 /* フッター */
@@ -327,10 +450,34 @@ section.section:nth-of-type(even) {
     font-size: 15px;
     max-width: 640px;
   }
-  .model-grid {
-    grid-template-columns: repeat(3, 1fr);
+  
+  /* Model steps horizontal layout */
+  .model-steps {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
   }
+  
+  .model-arrow {
+    transform: rotate(0deg);
+  }
+  
+  .model-step-desc {
+    max-width: 180px;
+  }
+  
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Flow steps 2x3 grid */
+  .flow-steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Company section side by side */
+  .company-section {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
