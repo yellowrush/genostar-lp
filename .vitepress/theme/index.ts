@@ -3,6 +3,7 @@ import Layout from './Layout.vue';
 import type { Theme } from 'vitepress';
 import { defineComponent } from 'vue';
 import './style.css';
+import LanguageSwitcher from './LanguageSwitcher.vue';
 
 const Empty = defineComponent({
   name: 'VpEmpty',
@@ -26,5 +27,8 @@ export default {
       'VpColorMode',
     ];
     names.forEach((n) => app.component(n, Empty));
+
+    // Register the language switcher component
+    app.component('LanguageSwitcher', LanguageSwitcher);
   },
 } satisfies Theme;

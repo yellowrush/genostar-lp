@@ -4,7 +4,7 @@ layout: home
 ---
 
 <nav class="section-nav">
-  <div class="container">
+  <div class="container nav-container">
     <ul>
       <li><a href="#top">TOP</a></li>
       <li><a href="#model">一站式支援模式</a></li>
@@ -12,6 +12,7 @@ layout: home
       <li><a href="#flow">导入流程</a></li>
       <li><a href="#company">公司信息</a></li>
     </ul>
+    <LanguageSwitcher />
   </div>
 </nav>
 
