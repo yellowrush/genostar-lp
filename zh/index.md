@@ -18,7 +18,7 @@ layout: home
 
 <div id="top"></div>
 
-<div class="hero">
+<section class="hero">
   <div class="container hero-inner">
     <h1>全球先进医疗技术日本导入一站式支援平台</h1>
     <p class="hero-lead">
@@ -28,9 +28,9 @@ layout: home
       ※基于医师平台 MedPeer 积累的咨询模式
     </p>
   </div>
-</div>
+</section>
 
-<section class="lp-section" id="model">
+<section class="section" id="model">
   <div class="container">
     <h2 class="section-title">一站式支援模式「选定 → 导入设计 → 定着支援」</h2>
     <p class="section-intro">
@@ -62,7 +62,7 @@ layout: home
   </div>
 </section>
 
-<section class="lp-section" id="services">
+<section class="section" id="services">
   <div class="container">
     <h2 class="section-title">咨询服务范围</h2>
     <p class="section-intro">
@@ -100,7 +100,7 @@ layout: home
   </div>
 </section>
 
-<section class="lp-section" id="flow">
+<section class="section" id="flow">
   <div class="container">
     <h2 class="section-title">导入流程</h2>
     <p class="section-intro">
@@ -117,7 +117,7 @@ layout: home
   </div>
 </section>
 
-<section class="lp-section" id="company">
+<section class="section" id="company">
   <div class="container">
     <h2 class="section-title">公司信息</h2>
     <dl class="company-grid">
@@ -143,3 +143,7 @@ layout: home
     </p>
   </div>
 </section>
+
+<footer class="site-footer">
+  <div class="container">© GenoStar Inc.</div>
+</footer>
