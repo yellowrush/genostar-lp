@@ -79,6 +79,13 @@ img {
   border-bottom-color: var(--primary);
 }
 
+/* Nav container for flexbox layout */
+.section-nav .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* ヒーロー */
 
 #top {
