@@ -133,7 +133,6 @@ function closeMenu() {
   position: absolute;
   top: 100%;
   right: 0;
-  margin-top: 4px;
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
