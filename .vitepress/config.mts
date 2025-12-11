@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // When using a custom domain, set base to '/' (root)
+  // This ensures all links work correctly at www.genostar.jp
+  base: '/',
   locales: {
     root: {
       label: '日本語',
