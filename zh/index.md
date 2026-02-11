@@ -145,5 +145,5 @@ layout: home
 </section>
 
 <footer class="site-footer">
-  <div class="container">© 2025 GenoStar Inc.</div>
+  <div class="container">©️GenoStar Inc. All Right Reserved</div>
 </footer>
