@@ -166,6 +166,14 @@ layout: home
         <dd>GenoStar Inc.</dd>
       </div>
       <div>
+        <dt>住所</dt>
+        <dd>〒104-0061 東京都中央区銀座1-22-11 銀座大竹ビジデンス</dd>
+      </div>
+      <div>
+        <dt>メール</dt>
+        <dd><a href="mailto:xiaoxing.liu@genostar.jp">xiaoxing.liu@genostar.jp</a></dd>
+      </div>
+      <div>
         <dt>事業内容</dt>
         <dd>
           医療技術の評価・比較、導入フローの設計、<br />
