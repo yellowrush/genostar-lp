@@ -131,7 +131,7 @@ layout: home
       </div>
       <div>
         <dt>电子邮箱</dt>
-        <dd>xiaoxing.liu@genostar.jp</dd>
+        <dd><a href="mailto:xiaoxing.liu@genostar.jp">xiaoxing.liu@genostar.jp</a></dd>
       </div>
       <div>
         <dt>业务内容</dt>

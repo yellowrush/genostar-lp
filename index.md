@@ -171,7 +171,7 @@ layout: home
       </div>
       <div>
         <dt>メール</dt>
-        <dd>xiaoxing.liu@genostar.jp</dd>
+        <dd><a href="mailto:xiaoxing.liu@genostar.jp">xiaoxing.liu@genostar.jp</a></dd>
       </div>
       <div>
         <dt>事業内容</dt>
