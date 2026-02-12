@@ -55,6 +55,13 @@ img {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+/* Nav container for flexbox layout */
+.section-nav .nav-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .section-nav ul {
   list-style: none;
   margin: 0;
@@ -64,6 +71,17 @@ img {
   align-items: center;
   gap: 20px;
   white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  flex: 1;
+  min-width: 0;
+}
+
+.section-nav ul::-webkit-scrollbar {
+  display: none;
 }
 
 .section-nav a {
@@ -77,13 +95,6 @@ img {
 
 .section-nav a:hover {
   border-bottom-color: var(--primary);
-}
-
-/* Nav container for flexbox layout */
-.section-nav .nav-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 /* ヒーロー */
