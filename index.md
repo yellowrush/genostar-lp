@@ -27,7 +27,7 @@ layout: home
       検査・薬剤・医療機器・デジタル健診――世界の医療イノベーションを評価し、導入し、現場に定着させる総合支援。
     </p>
     <p class="hero-note">
-      ※医師プラットフォーム MedPeer
+      ※医師プラットフォーム <a href="https://medpeer.co.jp" target="_blank" rel="noopener noreferrer">Medpeer</a>
       で培った知見を背景としたコンサルティングモデルに基づくサービス
     </p>
   </div>

@@ -25,7 +25,7 @@ layout: home
       检查、药剂、医疗器械、数位健诊——全面支援世界医疗创新在日本的评估、导入与定着。
     </p>
     <p class="hero-note">
-      ※基于医师平台 MedPeer 积累的咨询模式
+      ※基于医师平台 <a href="https://medpeer.co.jp" target="_blank" rel="noopener noreferrer">Medpeer</a> 积累的咨询模式
     </p>
   </div>
 </section>
