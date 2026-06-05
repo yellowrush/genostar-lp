@@ -150,6 +150,12 @@ img {
   margin: 0;
 }
 
+.hero-note a {
+  color: #7ec8f4;
+  text-decoration: underline;
+  opacity: 1;
+}
+
 /* Section Styles */
 section.section {
   padding: 56px 0;
