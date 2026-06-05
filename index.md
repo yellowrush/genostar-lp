@@ -191,5 +191,5 @@ layout: home
 </section>
 
 <footer class="site-footer">
-  <div class="container">©️GenoStar Inc. All Right Reserved</div>
+  <div class="container">&copy; GenoStar Inc. All Right Reserved</div>
 </footer>
